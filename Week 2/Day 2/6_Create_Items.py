@@ -17,7 +17,7 @@ class Read_Item(BaseModel):
     name: str
     price: float
     in_stock: bool
-    created_at: datetime
+    created_at: str
 
 
 @app.post("/items/", response_model=Read_Item, status_code=status.HTTP_201_CREATED)
