@@ -27,7 +27,7 @@ def create_item(item: Create_Item):
         "name": item.name,
         "price": item.price,
         "in_stock": item.in_stock,
-        "created_at": datetime.now()
+        "created_at": datetime.now().strftime("%B %d, %Y - %I:%M %p")
     }
     
     return fake_db_item
