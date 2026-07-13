@@ -1,3 +1,8 @@
+"""
+Question: 2: Write a get_db dependency using yield and plug it into a POST /users route that saves a new user to the database.
+
+"""
+
 from fastapi import FastAPI, Depends, status, HTTPException
 from sqlalchemy import create_engine, Column, Integer, String, Boolean
 from sqlalchemy.orm import declarative_base, sessionmaker, Session

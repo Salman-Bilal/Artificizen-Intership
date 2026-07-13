@@ -1,3 +1,8 @@
+"""
+Question: 1: Set up SQLAlchemy with SQLite. Create a User model with id, name, email, is_active. Run Base.metadata.create_all() to create the table.
+
+"""
+
 from sqlalchemy import create_engine, Column, Integer, String, Boolean
 from sqlalchemy.orm import declarative_base, sessionmaker
 

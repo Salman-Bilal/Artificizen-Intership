@@ -1,3 +1,8 @@
+"""
+Question: 3: Write a GET /users/{user_id} route that fetches from the DB and returns 404 if not found.
+
+"""
+
 from fastapi import FastAPI, Depends, status, HTTPException
 from sqlalchemy import create_engine, Column, Integer, String, Boolean
 from sqlalchemy.orm import declarative_base, sessionmaker, Session
