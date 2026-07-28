@@ -27,3 +27,7 @@ python-pptx
 pandas
 pillow
 markdown
+pytesseract
+
+# Audio & Video Transcription
+faster-whisper
